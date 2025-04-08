@@ -1,0 +1,154 @@
+body{
+    margin: 0%;
+    text-align: center;
+}
+header{
+    background-color: rgb(96, 100, 102);
+    padding: 10px;
+}
+.navbar{
+    height: 40px;
+    text-align: center;
+}
+#page1{
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 15px;
+}
+#page2{
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;text-align: center;
+}
+#p{
+    text-align: center;
+    padding: 10px;
+}
+#about{
+    margin-left: 10px;
+}
+#page3{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin: 150px; margin-top: 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+.paginations{
+    text-align: center;    
+}
+.pagination a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 11px 24px;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: rgb(119, 118, 118);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(:active){
+    background-color: rgb(125, 199, 255);
+    border-radius: 5px;
+}
+.icons{
+    text-align: center;
+    margin-top: 20px;
+}
+.fa-solid.fa-house.fa-2xl{
+    color: rgb(155, 154, 154);
+}
+.fa-brands.fa-facebook.fa-2xl{
+    color:blue
+}
+.fa-brands.fa-twitter.fa-2xl{
+    color: rgb(0, 221, 255)
+}
+.icon{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: flex;
+}
+.icons1{
+    margin-top: 50px;
+}
+.icons2{
+    margin-top: 25px;
+}
+.icons3{
+    margin-top: 25px;
+}
+.icons4{
+    margin-top: 25px;
+}
+.fa-solid.fa-user.fa-2xl{
+    float: left;
+    margin-top: 12.5px;
+    margin-left: 20px;
+}
+#page4{
+    text-align: center;
+    margin-top: 30px;
+}
+#portfolio{
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 3px solid grey;
+    max-width: 370px;
+    float: left;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+#logo{
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 3px solid grey;
+    max-width: 370px;
+    float: left;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+.fa-solid.fa-phone.fa-2xl{
+    color: rgb(58, 213, 16);
+}
+.fa-brands.fa-tiktok.fa-2xl{
+    color: black;
+}
+.text{
+    margin-left: 45px;
+    margin-top: -50px;
+}
+.fa-solid.fa-address-book.fa-2xl{
+    color: rgb(201, 126, 56);
+}
+p, h2, h3{
+    color: rgb(255, 252, 252);
+}
+.picture1{
+    margin: 40px auto;
+    width: 70%;
+}
+.picture2{
+    margin: 150px auto;
+    width: 70%;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+.content {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 100%;
+}
